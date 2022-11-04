@@ -15,7 +15,7 @@
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
-    
+    --color-bg-myImg: rgba(111, 0, 255, 0.424);
     --transition: all 400ms ease;
     
     --container-width-lx: 90%; 
@@ -36,7 +36,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url("./backg-img-index.jpg");
+    background-image: url("./backimg.jpg");
     
 }
 
@@ -109,7 +109,7 @@ a:hover {
 }
 
 img {
-    display: block;
+    
     width: 100%;
     object-fit: cover;
 }

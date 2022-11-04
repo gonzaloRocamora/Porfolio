@@ -5,8 +5,8 @@ import './header.css'
 function Utility() {
   return (
     <div className="utility">
-      <a href={CV}>Download CV</a>
-      <a href=''>Contact Me</a>
+      <a id="download" href={CV}>Download CV</a>
+      <a id="contact" href=''>Contact Me</a>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import Utility from "./Utility";
-import myImg from "./myImg.jpg";
+import myImg from "./backImg.png";
 import Socials from "./Socials";
 import './header.css'
 
@@ -15,7 +15,7 @@ function Header() {
         <Utility />
         <Socials />
         <div className="my_img">
-          <img src={myImg} alt="Gonzalo" />
+          <img id='gonzaimg' src={myImg} alt="Gonzalo" />
         </div>
         
       </div>
