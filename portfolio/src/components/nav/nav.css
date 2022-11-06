@@ -1,0 +1,23 @@
+nav {
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 15rem;
+    position: fixed;
+    border-radius: 2rem;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 15px;
+}
+
+nav a{
+    padding: 0.5rem;
+    font-size: 25px;
+
+}
+
+a:hover {
+    font-size:  30px;
+}

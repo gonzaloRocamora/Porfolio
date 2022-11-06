@@ -6,8 +6,9 @@ header {
 
 .header_container {
     text-align: center;
-    height: 80%;
+    height: 80vh;
     position: relative;
+   
 }
 
 .utility {
@@ -40,7 +41,7 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 4rem;
+    padding-top: 20vh;
 }
 
 
@@ -48,13 +49,16 @@ header {
     background: linear-gradient(var(--color-bg-myImg), transparent) ;
     width: 22rem;
     margin: 0 auto;
-    height: 30rem;
+    height: 27rem;
     margin-top: 2rem;
-    border-radius: 12rem 12rem 0 0; 
-    padding: 3rem 1.5rem 2rem 1.74rem;   
-    box-shadow: 15px 8px 20px rgba(244, 157, 255, 0.583);
+    border-radius: 12rem 12rem 1px 1px; 
+    
+    box-shadow: 15px 8px 20px rgba(119, 0, 255, 0.583);
 }
-
+.my_img #gonzaimg {
+    width: 100%;
+    height: 100%;
+}
 /*==Scroll Down==*/
 
 .scroll_down {

@@ -3,6 +3,7 @@ import Utility from "./Utility";
 import myImg from "./backImg.png";
 import Socials from "./Socials";
 import './header.css'
+import Nav from "../nav/Nav";
 
 function Header() {
   return (
@@ -14,6 +15,7 @@ function Header() {
 
         <Utility />
         <Socials />
+       
         <div className="my_img">
           <img id='gonzaimg' src={myImg} alt="Gonzalo" />
         </div>
