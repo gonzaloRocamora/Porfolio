@@ -1,0 +1,54 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50% ;
+    gap: 15%;
+
+}
+
+.about_me {
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, rgba(255, 0, 0, 0.377), transparent);
+    display: grid;
+    place-items: center;   
+   }
+
+.about_img{
+    margin-top:5rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    box-shadow: 5px 10px #da13f581;
+    height: auto;
+    
+}
+
+
+.about_img:hover {
+    transform: rotate(0deg);
+    transition: var(--transition);
+}
+
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: all 400ms ease;
+
+}
+
+.card:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: white;
+    color: white;
+    font-size: 1.2rem;
+}
