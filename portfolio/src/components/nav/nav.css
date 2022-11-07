@@ -9,7 +9,7 @@ nav {
     align-items: center;
     left: 50%;
     transform: translate(-50%);
-    bottom: 15px;
+    top: 770px;
 }
 
 nav a{
