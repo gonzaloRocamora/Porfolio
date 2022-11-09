@@ -26,7 +26,7 @@ function About() {
             </article>
 
             <article className="card">
-              <MdOutlineWork />
+              <MdOutlineWork  className="about_icon"/>
               <h5>Projects</h5>
               <small>Projects</small>
             </article>
