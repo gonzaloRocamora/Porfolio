@@ -1,5 +1,6 @@
 import React from 'react'
 import {BsFillPatchCheckFill} from 'react-icons/bs'
+import './experience.css'
 
 function Experience() {
   return (
@@ -25,29 +26,50 @@ function Experience() {
                    <article className='experience_details'>
                    <BsFillPatchCheckFill />
                  
-                   <h4>HTML</h4>
+                   <h4>CSS</h4>
                    <small className='text-light'>Experienced</small>
                    </article> 
                    <article className='experience_details'>
                    <BsFillPatchCheckFill />
                  
-                   <h4>HTML</h4>
+                   <h4>JavaScript</h4>
                    <small className='text-light'>Experienced</small>
                    </article> 
                    <article className='experience_details'>
                    <BsFillPatchCheckFill />
                  
-                   <h4>HTML</h4>
+                   <h4>React Js</h4>
                    <small className='text-light'>Experienced</small>
+                   </article> 
+                  
+                 </div>
+        </div>
+        {/*BACK END*/}
+        <div className='experience_backend'>
+            <h3>Back End Development</h3>
+            <div className='experience_content'>
+               <article className='experience_details'>
+                   <BsFillPatchCheckFill />
+                 
+                   <h4>Node Js</h4>
+                   <small className='text-light'>Basic</small>
                    </article> 
                    <article className='experience_details'>
                    <BsFillPatchCheckFill />
                  
-                   <h4>HTML</h4>
-                   <small className='text-light'>Experienced</small>
+                   <h4>Mongo Db</h4>
+                   <small className='text-light'>Basic</small>
                    </article> 
-                   
-            </div>
+                   <article className='experience_details'>
+                   <BsFillPatchCheckFill />
+                 
+                   <h4>Express</h4>
+                   <small className='text-light'>Basic</small>
+                   </article> 
+                   <article className='experience_details'>
+                   <BsFillPatchCheckFill />
+                 </article>                  
+                 </div>
         </div>
        </div>
    </section>
