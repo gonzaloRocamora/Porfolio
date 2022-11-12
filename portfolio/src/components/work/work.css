@@ -1,0 +1,35 @@
+.card_work a:hover {
+  font-size: 1.1rem;
+  transition: var(--transition);
+}
+
+.work_container {
+  background: var(--color-bg-variant);
+  border-radius: 2rem;
+  padding: 3rem 1rem;
+  border: 1px solid transparent;
+}
+.work_container:hover {
+    background: rgba(0, 0, 0, 0.397);
+    border-color: var(--color-light);
+    transition: var(--transition);
+}
+
+.work_container > h3 {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.work_container div {
+  
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto; 
+  
+}
+
+.card_work{
+    text-align: center;
+}
