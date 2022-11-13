@@ -35,14 +35,13 @@ body {
     font-family: "Poppins", sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
-    line-height: 1.7;
+    
     background-image: url("./backimg.jpg") ;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; 
-  background-size: cover;
-
-}
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+    }
 
 /* ===General Style=== */
 .container {
@@ -68,7 +67,7 @@ It will target elements which are DIRECT children of a particular element.
 div#container > p {
   border: 1px solid black;
 }*/
-section{
+section {
     margin-top: 8rem;
 }
 section > h2, 
@@ -124,17 +123,21 @@ img {
 @media screen and (max-width: 1024px) {
 .container {
     width: var(--container-width-md);
+    
+}
+section {
+    margin-top: 0;
 }
 
-section {
-    margin-top: 6rem;    
-}
 }
 
 @media screen and (max-width: 600px){
 .container{
     width: var(--container-width-sm);
+    
 }
 
-
+section {
+    margin-top: 0;
+}
 }

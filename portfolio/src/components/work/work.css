@@ -6,7 +6,7 @@
 .work_container {
   background: var(--color-bg-variant);
   border-radius: 2rem;
-  padding: 3rem 1rem;
+  padding: rem 1rem;
   border: 1px solid transparent;
 }
 .work_container:hover {

@@ -2,8 +2,8 @@ import React from "react";
 import Utility from "./Utility";
 import myImg from "./backImg.png";
 import Socials from "./Socials";
-import './header.css'
-import Nav from "../nav/Nav";
+import './header.css';
+
 
 function Header() {
   return (
