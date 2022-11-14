@@ -77,18 +77,13 @@ header {
 
 /*Medium device*/
 @media screen and (max-width: 1024px){
-    header {
-        height: 95vh;
-
-    }
+    
     }
     
 
 /*Small devide*/
 @media screen and (max-width: 600px){
-    header{
-        height: 100vh;
-    }
+    
     .header_socials,.scroll_down{
         display: none;
     }
