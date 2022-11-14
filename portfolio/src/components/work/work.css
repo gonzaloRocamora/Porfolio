@@ -6,7 +6,7 @@
 .work_container {
   background: var(--color-bg-variant);
   border-radius: 2rem;
-  padding: rem 1rem;
+  padding: 2rem 1.5rem;
   border: 1px solid transparent;
 }
 .work_container:hover {
@@ -27,9 +27,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto; 
-  
+
 }
 
 .card_work{
     text-align: center;
 }
+
+
