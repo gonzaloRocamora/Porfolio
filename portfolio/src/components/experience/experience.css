@@ -14,6 +14,9 @@
      
     
 }  
+#experience{
+    padding-top: 7rem;
+}
 
 .experience_container > div {
     background: var(--color-bg-variant);
@@ -64,6 +67,9 @@
         padding: 2rem;
         margin: 0 auto;
     }
+    #experience{
+        padding-top: 5rem;
+    }
 }
 
 /*SMALL DEVICE*/
@@ -79,6 +85,10 @@
         display: flex;
         gap: 0.5rem;
         flex-direction: column;
+        
+    }
+    #experience{
+        padding-top: 4rem;
         
     }
     }

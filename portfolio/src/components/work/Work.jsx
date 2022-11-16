@@ -4,7 +4,7 @@ import { SiNetlify } from "react-icons/si";
 
 function Work() {
   return (
-    <section>
+    <section id='work'>
       <h5>Link to my work</h5>
       <h2>Projects</h2>
       <div className="container work_container">

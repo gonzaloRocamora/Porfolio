@@ -6,7 +6,7 @@ import "./about.css";
 
 function About() {
   return (
-    <section>
+    <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
@@ -22,20 +22,28 @@ function About() {
             <article className="card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>+2 Years Developing</small>
+              <small>+3 Years Developing</small>
             </article>
 
             <article className="card">
-              <MdOutlineWork  className="about_icon"/>
+              <MdOutlineWork className="about_icon" />
               <h5>Projects</h5>
               <small>Projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            facilis praesentium at, eligendi delectus reprehenderit quam
-            asperiores voluptatibus aspernatur ab quidem quisquam incidunt
-            corrupti amet ex exercitationem illum suscipit quos.
+            I have been working as a Front End Web Developer for the past three
+            years, and have gained extensive experience in HTML, CSS,
+            JavaScript, jQuery, PHP, MySQL, and WordPress. I have also worked
+            with other programming languages such as C++ and Python. My
+            experience includes developing websites for small businesses,
+            non-profit organizations, and personal projects. My greatest
+            strength is my ability to work independently. I am able to take on
+            projects from start to finish without needing constant supervision
+            or guidance. I am also very comfortable working with clients to
+            understand their needs and requirements before starting any project.
+            This allows me to develop websites that are not only functional but
+            also meet the client’s needs and expectations.
           </p>
           <a href="#contact" className="btn-primary">
             Let's talk

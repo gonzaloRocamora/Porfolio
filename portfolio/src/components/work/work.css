@@ -35,3 +35,9 @@
 }
 
 
+@media screen and (max-width: 600px)
+{
+    #work{
+        margin-top: 1.7rem;
+    }
+}

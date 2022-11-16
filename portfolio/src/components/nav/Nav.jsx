@@ -14,14 +14,18 @@ function Nav() {
       <a href="#" className={activeNav == "#" ? "active" : ""}>
         <AiOutlineHome />
       </a>
-      <a href="#about" 
+    
+    <a href="#about" 
+            
+            onClick={() => setActiveNav("#about")}
             className={activeNav === "#about"? 'active' : ''}
-            onClick={() => setActiveNav("#about")}>
+            >
+            
         <FcAbout />
       </a>
       <a href="#experience"
             className={activeNav === "#experience"? 'active' : ''}
-            onClick={() => setActiveNav("experience")}>
+            onClick={() => setActiveNav("#experience")}>
         <HiDocumentText />
       </a>
       <a href="#contact"
@@ -29,6 +33,8 @@ function Nav() {
         onClick={() => setActiveNav("contact")}>
         <MdPermContactCalendar />
       </a>
+    
+    
     </nav>
   );
 }
