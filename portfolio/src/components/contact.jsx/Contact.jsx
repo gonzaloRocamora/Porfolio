@@ -1,10 +1,29 @@
-import React from "react";
 
+
+
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 import { RiMailSendLine } from "react-icons/ri";
 import { SiWhatsapp } from "react-icons/si";
 import './contact.css'
 function Contact() {
+    
 
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_8zy88w6', 'template_i38yo8l', form.current, 'cKkgMo01TRJSAGeb7')
+        .then((result) => {
+            console.log(result.text);
+            if(result.text === 'OK')
+            alert("Email succesfully sent");
+        }, (error) => {
+            console.log(error.text);
+        });
+        
+    };
 
   return (
     <section id="contact">
@@ -35,7 +54,7 @@ function Contact() {
 
         {/*FORM*/}
         <div className="form_container">
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <input
              name="name"
               
@@ -52,9 +71,10 @@ function Contact() {
              rows='9'
              name="message" 
              maxlength="140"
-              placeholder="Write a message(max 140 characters"
+              placeholder="Write a message(max 140 characters)"
               type="text"  
             ></textarea>
+            <button type="submit" className='btn-form'>Send</button>
           </form>
         </div>
       </div>

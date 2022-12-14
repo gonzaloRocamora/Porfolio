@@ -34,8 +34,8 @@ function About() {
           <p>
             I have been working as a Front End Web Developer for the past three
             years, and have gained extensive experience in HTML, CSS,
-            JavaScript, jQuery, PHP, MySQL, and WordPress. I have also worked
-            with other programming languages such as C++ and Python. My
+            JavaScript, TypeScript, NodeJs, Gitub. I have also worked
+            with other programming languages such as C and Java. My
             experience includes developing websites for small businesses,
             non-profit organizations, and personal projects. My greatest
             strength is my ability to work independently. I am able to take on

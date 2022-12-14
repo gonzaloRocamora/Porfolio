@@ -73,6 +73,19 @@
     font-size: 1.2rem;
     color: rgba(0, 247, 255, 0.993);
 }
+.btn-primary{
+    background-color: var(--color-primary);
+    color: black;
+    padding: 0.5rem 1rem;
+    transition: var(--transition);
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    color: white;
+    font-size: 1.4rem;
+    transition: var(--transition);
+
+}
 /*MEDIUM DEVICE*/
 @media screen and (max-width: 1024px) {
     .about_container {

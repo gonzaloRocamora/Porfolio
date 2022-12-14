@@ -31,8 +31,8 @@ header {
 .utility #contact {
     background-color: var(--color-primary);
     color: black;
-    padding: 0.5rem;
-    padding-inline: 1rem;
+    padding: 0.5rem 1rem;
+    
     border-radius: 5px;
 }
 .utility #contact:hover {

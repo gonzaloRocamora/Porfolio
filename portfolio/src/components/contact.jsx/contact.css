@@ -54,6 +54,20 @@ input, textarea{
     color: var(--color-white);
     font-size: 1rem;
 }
+.btn-form{
+    background-color: var(--color-primary);
+    color: black;
+    padding: 0.5rem 1rem;
+    margin-left: 60%;
+    width: 40%;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.btn-form:hover{
+    color: white;
+    font-size: 1.4rem;
+    transition: var(--transition);
+}
 /*MEDIUM DEVICE MEDIA QUERY*/
 @media screen and (max-width: 1024px){
     .contact_container{
